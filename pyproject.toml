@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llm-langchain-demos"
+version = "0.1.0"
+description = ""
+authors = ["yx <yangxue.cs@foxmail.com>"]
+readme = "README.md"
+packages = [{include = "llm_langchain_demos", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
